@@ -66,6 +66,7 @@ i:before {
 }
 
 body {
+  background-color: #000000 !important;
   font-size: 15px;
   font-weight: 300; 
   line-height: 28px;
@@ -953,7 +954,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .menu > .nav-item > .nav-link {
   font: 500 15px "Poppins", sans-serif;
-  color: #051441;
+  color: #fefefe;
   padding: 0px;
   -webkit-transition: color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s;
@@ -2295,7 +2296,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white;
+  background-color: #212121;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
   box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
 }
@@ -2424,7 +2425,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .navbar_fixed .header_area .menu_six .menu > .nav-item > .nav-link {
-  color: #051441;
+  color: #fefefe;
 }
 
 .navbar_fixed .header_area .menu_six .menu > .nav-item:hover > .nav-link, .navbar_fixed .header_area .menu_six .menu > .nav-item.active > .nav-link {
@@ -2451,7 +2452,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .navbar_fixed .header_area .menu_seven .menu > .nav-item > .nav-link {
-  color: #051441;
+  color: #fefefe;
 }
 
 .navbar_fixed .header_area .menu_seven .menu > .nav-item:hover > .nav-link, .navbar_fixed .header_area .menu_seven .menu > .nav-item.active > .nav-link {
@@ -23767,7 +23768,8 @@ a .h_head:hover {
 
 /*=========== tracking_banner_area css =============*/
 .tracking_banner_area {
-  background: #efeec9;
+  background: rgb(0,2,4);
+background: linear-gradient(360deg, rgba(0,2,4,1) 0%, rgba(33,33,33,1) 33%, rgba(40,39,39,1) 100%);
   padding-top: 175px;
 }
 
@@ -23826,12 +23828,13 @@ a .h_head:hover {
 
 /*=========== tracking_product_area css ==============*/
 .tracking_product_area {
-  background: #f6f6f6;
+  background: rgb(0,2,4);
+background: linear-gradient(360deg, rgba(0,2,4,1) 0%, rgba(33,33,33,1) 33%, rgba(40,39,39,1) 100%);
 }
 
 .tracking_pr_item {
   padding: 60px;
-  background: #fe8585;
+  background: #212121;
 }
 .tracking_pr_two{
   background: #9260d9;
@@ -23842,6 +23845,10 @@ a .h_head:hover {
 
 .tracking_pr_item .tracking_bg {
   text-align: center;
+}
+
+.tracking_bg img{
+  max-width: 100% !important;
 }
 
 .tracking_pr_item .tracking_content {
@@ -25209,3 +25216,8 @@ a .h_head:hover {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
+
+
+.sizelogo{
+  max-width: 10%;
+}
