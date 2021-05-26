@@ -23838,6 +23838,7 @@ background: linear-gradient(360deg, rgba(0,2,4,1) 0%, rgba(33,33,33,1) 33%, rgba
 }
 .tracking_pr_two{
   background: #9260d9;
+  border: solid 1px;
 }
 .tracking_pr_three{
   background: #fe8585;
