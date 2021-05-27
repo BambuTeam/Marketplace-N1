@@ -10,9 +10,9 @@ class CustomNavbar extends Component {
                 <header className="header_area">
                 <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
                     <div className={`container ${cClass}`}>
-                        <Link className={`navbar-brand ${slogo}`} to="/">
-                            <img src={require("../img/logo2.png")} alt=""/>
-                            <img src={require("../img/logo.png")} alt="logo"/>
+                        <Link className={`navbar-brand  ${slogo}`} to="/">
+                            <img src={require("../img/logon1.png")} alt=""/>
+                            <img src={require("../img/logon1.png")} alt="logo"/>
                         </Link>
                         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="menu_toggle">

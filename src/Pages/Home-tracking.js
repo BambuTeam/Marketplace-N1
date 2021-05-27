@@ -13,7 +13,7 @@ const homesupport = () => {
         <div className="body_wrapper">
             <CustomNavbar mClass="menu_tracking" nClass="mr-auto" hbtnClass="tracking_btn"/>
             <TrackingBanner/> 
-            <TrackingActivity/>
+            {/* <TrackingActivity/> */}
             <TrackingProduct/>
             <TrackingPrice/>
             <TrackingGetstarted/>
