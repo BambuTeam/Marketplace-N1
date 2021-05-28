@@ -30,25 +30,16 @@ class CustomNavbar extends Component {
 
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className={`navbar-nav menu ml-auto ${nClass}`}>
-                                    <li className="nav-item dropdown submenu mega_menu mega_menu_two">
-                                        <Link to="./" className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Home
+                                    <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="./">Home</NavLink></li>
+                                    <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Home-Tracking">Productos</NavLink></li>
+                                    {/*  <li className="nav-item dropdown submenu mega_menu mega_menu_two">
+                                        <Link to="/Home-Tracking" className="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Productos
                                     </Link>
                                         <div className="mega_menu_inner">
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <ul className="dropdown-menu scroll">
-                                                        <li className="nav-item">
-                                                            <NavLink to="/Home-chat" exact className="item">
-                                                                <span className="img">
-                                                                    <span className="rebon_tap">New</span>
-                                                                    <img src={require('../img/mega-menu-img/home-chat.jpg')} alt="Prototyping Tool" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Hoeme Chat
-                                                        </span>
-                                                            </NavLink>
-                                                        </li>
                                                         <li className="nav-item">
                                                             <NavLink to="/Home-Tracking" exact className="item">
                                                                 <span className="img">
@@ -56,11 +47,11 @@ class CustomNavbar extends Component {
                                                                     <img src={require('../img/mega-menu-img/home-track.jpg')} alt="Prototyping Tool" />
                                                                 </span>
                                                                 <span className="text">
-                                                                    Home Tracking
+                                                                    Productos
                                                         </span>
                                                             </NavLink>
                                                         </li>
-                                                        <li className="nav-item">
+                                                        {/* <li className="nav-item">
                                                             <NavLink to="/Home-event" exact className="item">
                                                                 <span className="img">
                                                                     <span className="rebon_tap">New</span>
@@ -70,20 +61,10 @@ class CustomNavbar extends Component {
                                                                     Home Event
                                                         </span>
                                                             </NavLink>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/Home-cloud" exact className="item">
-                                                                <span className="img">
-                                                                    <span className="rebon_tap">New</span>
-                                                                    <img src={require('../img/mega-menu-img/home12.jpg')} alt="cloud" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Cloud Based Saas
-                                                        </span>
-                                                            </NavLink>
-                                                        </li>
-                                                        
-                                                        <li className="nav-item">
+                                                        </li> 
+
+
+                                                        {/*  <li className="nav-item">
                                                             <NavLink to="/" exact className="item">
                                                                 <span className="img">
                                                                     <img src={require('../img/mega-menu-img/Prototyping_Tool.jpg')} alt="Prototyping Tool" />
@@ -92,12 +73,12 @@ class CustomNavbar extends Component {
                                                                     Prototyping Tool
                                                             </span>
                                                             </NavLink>
-                                                        </li>
+                                                        </li> 
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li> */}
 
                                     <li className="dropdown submenu nav-item">
                                         <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service</Link>
@@ -126,7 +107,8 @@ class CustomNavbar extends Component {
                                             <li className="nav-item"><NavLink title="PortfolioSingle" className="nav-link" to='/PortfolioSingle'>Portfolio Single</NavLink></li>
                                         </ul>
                                     </li>
-                                    <li className="nav-item dropdown submenu">
+                                    <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Bloglist">Blog</NavLink></li>
+                                    {/* <li className="nav-item dropdown submenu">
                                         <a className="nav-link dropdown-toggle" href=".#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Blog
                                     </a>
@@ -135,7 +117,7 @@ class CustomNavbar extends Component {
                                             <li className="nav-item"><NavLink to="/BlogGridPage" className="nav-link">Blog Grid</NavLink></li>
                                             <li className="nav-item"><NavLink to="/BlogSingle" className="nav-link">Blog Single</NavLink></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Contact">Contact</NavLink></li>
                                 </ul>
                                 <a className={`btn_get btn_hover ${hbtnClass}`} href="#get-app">Get Started</a>

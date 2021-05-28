@@ -14,7 +14,7 @@ import Portfolio3col from "./Pages/Portfolio-3col";
 import Portfoliofull4col from "./Pages/Portfolio-fullwidth-4col";
 import PortfolioSingle from "./Pages/PortfolioSingle";
 import Bloglist from "./Pages/Bloglist";
-import BlogSingle from "./Pages/BlogSingle";
+
 import Contact from "./Pages/Contact";
 import ScrollToTopRoute from "./ScrollToTopRoute";
 
@@ -24,16 +24,16 @@ import ScrollToTopRoute from "./ScrollToTopRoute";
 
 import homeSoftwareDark from "./Pages/Home-software-dark";
 import HomeAppShowcase from "./Pages/Home-app-showcase";
-import HomeCloud from "./Pages/Home-cloud";
+
 import HomeTracking from "./Pages/Home-tracking";
 import HomeEvent from "./Pages/Home-event";
-import HomeChat from "./Pages/Home-chat";
+
 import Price from "./Pages/Price";
 import Faq from "./Pages/Faq";
 import ServiceDetails from "./Pages/ServiceDetails";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
-import BlogGridPage from "./Pages/BlogGridPage";
+
 import NotFound from "./Pages/404";
 
 class App extends Component {
@@ -45,7 +45,7 @@ class App extends Component {
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={Home} />
-         
+
 
           <ScrollToTopRoute path="/About" component={About} />
           <ScrollToTopRoute path="/Service" component={Service} />
@@ -62,14 +62,12 @@ class App extends Component {
             component={PortfolioSingle}
           />
           <ScrollToTopRoute path="/Bloglist" component={Bloglist} />
-          <ScrollToTopRoute path="/BlogSingle" component={BlogSingle} />
-          <ScrollToTopRoute path="/BlogGridPage" component={BlogGridPage} />
           <ScrollToTopRoute path="/Contact" component={Contact} />
-        
-          
-          
-          
-         
+
+
+
+
+
           <ScrollToTopRoute
             path="/HomeAppShowcase"
             component={HomeAppShowcase}
@@ -78,10 +76,9 @@ class App extends Component {
             path="/Home-software-dark"
             component={homeSoftwareDark}
           />
-          <ScrollToTopRoute path="/Home-cloud" component={HomeCloud} />
           <ScrollToTopRoute path="/Home-Tracking" component={HomeTracking} />
           <ScrollToTopRoute path="/Home-event" component={HomeEvent} />
-          <ScrollToTopRoute path="/Home-chat" component={HomeChat} />
+
           <ScrollToTopRoute path="/Price" component={Price} />
           <ScrollToTopRoute path="/Faq" component={Faq} />
           <ScrollToTopRoute path="/ServiceDetails" component={ServiceDetails} />
