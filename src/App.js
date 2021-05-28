@@ -17,9 +17,9 @@ import Bloglist from "./Pages/Bloglist";
 import BlogSingle from "./Pages/BlogSingle";
 import Contact from "./Pages/Contact";
 import ScrollToTopRoute from "./ScrollToTopRoute";
-import Landing from "./Pages/Landing";
 
-import homeERP from "./Pages/Home-ERP";
+
+
 
 
 import homeSoftwareDark from "./Pages/Home-software-dark";
@@ -65,10 +65,10 @@ class App extends Component {
           <ScrollToTopRoute path="/BlogSingle" component={BlogSingle} />
           <ScrollToTopRoute path="/BlogGridPage" component={BlogGridPage} />
           <ScrollToTopRoute path="/Contact" component={Contact} />
-          <ScrollToTopRoute path="/Landing" component={Landing} />
+        
           
           
-          <ScrollToTopRoute path="/Home-ERP" component={homeERP} />
+          
          
           <ScrollToTopRoute
             path="/HomeAppShowcase"

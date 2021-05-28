@@ -82,28 +82,7 @@ class CustomNavbar extends Component {
                                                         </span>
                                                             </NavLink>
                                                         </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/Home-ERP" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/erp.jpg')} alt="Prototyping Tool" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Hoeme ERP
-                                                        </span>
-                                                            </NavLink>
-                                                        </li>
-
-
-                                                        <li className="nav-item">
-                                                            <NavLink to="/Landing" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/home14.jpg')} alt="Prototyping Tool" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    App Landing (One Page)
-                                                            </span>
-                                                            </NavLink>
-                                                        </li>
+                                                        
                                                         <li className="nav-item">
                                                             <NavLink to="/" exact className="item">
                                                                 <span className="img">
