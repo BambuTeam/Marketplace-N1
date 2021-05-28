@@ -153,7 +153,7 @@ class CustomNavbar extends Component {
                                                         </NavLink>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <NavLink to="/Startup" exact className="item">
+                                                        <NavLink to="/" exact className="item">
                                                             <span className="img">
                                                                 <img src={require('../img/mega-menu-img/home15.jpg')} alt=""/>
                                                             </span>

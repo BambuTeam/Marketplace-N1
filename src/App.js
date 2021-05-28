@@ -5,7 +5,6 @@ import { Home } from "./Pages/Home";
 import DigitalMarketing from "./Pages/Digital-marketing";
 import PaymentProcessing from "./Pages/Payment-processing";
 import HRManagement from "./Pages/HR-Management";
-import Startup from "./Pages/Startup";
 import HomeCRM from "./Pages/Home-CRM";
 import About from "./Pages/About";
 import Service from "./Pages/Service";
@@ -56,7 +55,7 @@ class App extends Component {
             component={PaymentProcessing}
           />
           <ScrollToTopRoute path="/HR-Management" component={HRManagement} />
-          <ScrollToTopRoute path="/Startup" component={Startup} />
+
           <ScrollToTopRoute path="/Home-CRM" component={HomeCRM} />
           <ScrollToTopRoute path="/About" component={About} />
           <ScrollToTopRoute path="/Service" component={Service} />
