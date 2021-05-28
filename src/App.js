@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch } from "react-router-dom";
 /*------ Pages-----*/
 import { Home } from "./Pages/Home";
 
-import PaymentProcessing from "./Pages/Payment-processing";
 
 
 import About from "./Pages/About";
@@ -19,10 +18,10 @@ import BlogSingle from "./Pages/BlogSingle";
 import Contact from "./Pages/Contact";
 import ScrollToTopRoute from "./ScrollToTopRoute";
 import Landing from "./Pages/Landing";
-import homesupport from "./Pages/home-support";
+
 import homeERP from "./Pages/Home-ERP";
-import homeHosting from "./Pages/HomeHosting";
-import homeSecurity from "./Pages/HomeSecurity";
+
+
 import homeSoftwareDark from "./Pages/Home-software-dark";
 import HomeAppShowcase from "./Pages/Home-app-showcase";
 import HomeCloud from "./Pages/Home-cloud";
@@ -46,10 +45,7 @@ class App extends Component {
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={Home} />
-          <ScrollToTopRoute
-            path="/Payment-processing"
-            component={PaymentProcessing}
-          />
+         
 
           <ScrollToTopRoute path="/About" component={About} />
           <ScrollToTopRoute path="/Service" component={Service} />
@@ -70,10 +66,10 @@ class App extends Component {
           <ScrollToTopRoute path="/BlogGridPage" component={BlogGridPage} />
           <ScrollToTopRoute path="/Contact" component={Contact} />
           <ScrollToTopRoute path="/Landing" component={Landing} />
-          <ScrollToTopRoute path="/home-support" component={homesupport} />
-          <ScrollToTopRoute path="/HomeHosting" component={homeHosting} />
+          
+          
           <ScrollToTopRoute path="/Home-ERP" component={homeERP} />
-          <ScrollToTopRoute path="/HomeSecurity" component={homeSecurity} />
+         
           <ScrollToTopRoute
             path="/HomeAppShowcase"
             component={HomeAppShowcase}

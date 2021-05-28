@@ -92,36 +92,8 @@ class CustomNavbar extends Component {
                                                         </span>
                                                             </NavLink>
                                                         </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/HomeHosting" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/hosting.jpg')} alt="Prototyping Tool" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Hoeme Hosting
-                                                        </span>
-                                                            </NavLink>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/HomeSecurity" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/home-security.jpg')} alt="Prototyping Tool" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Hoeme Security
-                                                        </span>
-                                                            </NavLink>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/home-support" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/support.jpg')} alt="Prototyping Tool" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Hoeme Support
-                                                        </span>
-                                                            </NavLink>
-                                                        </li>
+
+
                                                         <li className="nav-item">
                                                             <NavLink to="/Landing" exact className="item">
                                                                 <span className="img">
@@ -139,26 +111,6 @@ class CustomNavbar extends Component {
                                                                 </span>
                                                                 <span className="text">
                                                                     Prototyping Tool
-                                                            </span>
-                                                            </NavLink>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/Payment-processing" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/home16.jpg')} alt="" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Payment Processing
-                                                            </span>
-                                                            </NavLink>
-                                                        </li>
-                                                        <li className="nav-item">
-                                                            <NavLink to="/" exact className="item">
-                                                                <span className="img">
-                                                                    <img src={require('../img/mega-menu-img/home15.jpg')} alt="" />
-                                                                </span>
-                                                                <span className="text">
-                                                                    Startup
                                                             </span>
                                                             </NavLink>
                                                         </li>
