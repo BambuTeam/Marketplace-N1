@@ -2,8 +2,8 @@ import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 import EventBanner from "../components/Banner/EventBanner";
 import EventCount from "../components/Service/Sservice/EventCount";
-import EventAbout from "../components/About/EventAbout";
-import EventTeam from "../components/Team/EventTeam";
+
+
 import EventFeatures from "../components/Features/EventFeatures";
 import EventDetails from "../components/Features/EventDetails";
 import ScheduleTab from "../components/scheduleTab";
@@ -26,8 +26,6 @@ const homesupport = () => {
       />
       <EventBanner />
       <EventCount />
-      <EventAbout />
-      <EventTeam />
       <EventFeatures />
       <EventDetails />
       <ScheduleTab />

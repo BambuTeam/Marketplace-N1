@@ -79,8 +79,8 @@ class CustomNavbar extends Component {
                                             </ul>
                                         </div>
                                     </li> */}
-
-                                    <li className="dropdown submenu nav-item">
+                                    <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Process">About Us</NavLink></li>
+                                    {/* <li className="dropdown submenu nav-item">
                                         <Link to="./" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</Link>
                                         <ul role="menu" className=" dropdown-menu">
                                             <li className="nav-item"><NavLink exact title="About" className="nav-link" to='/About'>About</NavLink></li>
@@ -91,7 +91,7 @@ class CustomNavbar extends Component {
                                             <li className="nav-item"><NavLink exact title="SignIn" className="nav-link" to='/SignIn'>Sign In</NavLink></li>
                                             <li className="nav-item"><NavLink exact title="SignUp" className="nav-link" to='/SignUp'>Sign Up</NavLink></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Portfolio-3col">Galery</NavLink></li>
                                     {/* <li className="dropdown submenu nav-item"><Link title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" to="#">Portfolio</Link>
                                         <ul role="menu" className=" dropdown-menu">

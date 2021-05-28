@@ -7,7 +7,7 @@ import AppTestimonial from '../components/Testimonial/AppTestimonial';
 import AppWork from '../components/Service/AppWork';
 import ScreenshowCase from '../components/ScreenshowCase';
 import AppGetstarted from '../components/AppGetstarted';
-import AppTeam from '../components/Team/AppTeam';
+
 import FooterTwo from '../components/Footer/FooterTwo';
 import ServiceData from '../components/Service/ServiceData';
 import FooterData from '../components/Footer/FooterData';
@@ -23,7 +23,6 @@ const HomeAppShowcase = () => {
             <AppTestimonial/>
             <ScreenshowCase/>
             <AppGetstarted/>
-            <AppTeam/>
             <FooterTwo FooterData={FooterData}/>
         </div>
     )
