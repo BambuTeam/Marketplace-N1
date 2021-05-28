@@ -12,22 +12,22 @@ import SecurityAction from "../components/SecurityAction";
 import FooterSecurity from "../components/Footer/FooterSecurity";
 import FooterData from '../components/Footer/FooterData';
 
-const HomeSecurity =()=> {
-    return(
+const HomeSecurity = () => {
+    return (
         <div className="body_wrapper">
-            <CustomNavbar mClass="menu_eight" nClass="w_menu" slogo="sticky_logo" hbtnClass="security_btn"/>
-            <SecurityBanner/>
-            <SecurityFeatures/>
-            <SecurityPowerFeatures/>
-            <SecurityService/>
-            <SequrityPrice/>
-            <Analyticeslist/>
-            <SecurityCustomerLogo/>
-            <SecurityIntegration/>
-            <SecurityAction/>
-            <FooterSecurity FooterData={FooterData}/>
+            <CustomNavbar mClass="menu_eight" nClass="w_menu" slogo="sticky_logo" hbtnClass="security_btn" />
+            <SecurityBanner />
+            <SecurityFeatures />
+            <SecurityPowerFeatures />
+            <SecurityService />
+            <SequrityPrice />
+            <Analyticeslist />
+            <SecurityCustomerLogo />
+            <SecurityIntegration />
+            <SecurityAction />
+            <FooterSecurity FooterData={FooterData} />
         </div>
     )
 }
- 
+
 export default HomeSecurity;
