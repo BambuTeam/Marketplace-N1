@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 /*------ Pages-----*/
 import { Home } from "./Pages/Home";
-import DigitalMarketing from "./Pages/Digital-marketing";
+
 import PaymentProcessing from "./Pages/Payment-processing";
-import HRManagement from "./Pages/HR-Management";
-import HomeCRM from "./Pages/Home-CRM";
+
+
 import About from "./Pages/About";
 import Service from "./Pages/Service";
 import Process from "./Pages/Process";
@@ -47,16 +47,10 @@ class App extends Component {
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={Home} />
           <ScrollToTopRoute
-            path="/Digital-marketing"
-            component={DigitalMarketing}
-          />
-          <ScrollToTopRoute
             path="/Payment-processing"
             component={PaymentProcessing}
           />
-          <ScrollToTopRoute path="/HR-Management" component={HRManagement} />
 
-          <ScrollToTopRoute path="/Home-CRM" component={HomeCRM} />
           <ScrollToTopRoute path="/About" component={About} />
           <ScrollToTopRoute path="/Service" component={Service} />
           <ScrollToTopRoute path="/Process" component={Process} />
