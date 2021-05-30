@@ -3,7 +3,7 @@ import CustomNavbar from '../components/CustomNavbar';
 import DesignBanner from '../components/Banner/AppBanner';
 import Service from '../components/Service/Service';
 import Subscribe from '../components/Subscribe';
-import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer/FooterSecurity';
 import FooterData from '../components/Footer/FooterData';
 
 export const Home = () => (

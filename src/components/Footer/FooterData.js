@@ -42,43 +42,7 @@ const FooterData = {
                   text: 'My tasks',
               },
           ],
-      },
-      {
-            id: 2,
-            title: "Help",
-            menuItems: [
-                {
-                  id: 1,
-                  url: '#',
-                  text: 'FAQ',
-                },
-                {
-                  id: 2,
-                  url: '#',
-                  text: 'Term & conditions',
-                },
-                {
-                  id: 3,
-                  url: '#',
-                  text: 'Reporting',
-                },
-                {
-                  id: 4,
-                  url: '#',
-                  text: 'Documentation',
-                },
-                {
-                  id: 5,
-                  url: '#',
-                  text: 'Support Policy',
-                },
-                {
-                    id: 6,
-                    url: '#',
-                    text: 'Privacy',
-                  },
-            ],
-        },
+      }
     ],
     termsCondition: [
       {

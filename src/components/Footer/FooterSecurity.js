@@ -17,8 +17,8 @@ class FooterSecurity extends Component {
                                     <Reveal effect="fadeInLeft" duration={500} key={1}>
                                         <div className="col-lg-4 col-sm-6" >
                                             <div className="f_widget dark_widget company_widget" data-wow-delay="0.2s">
-                                                <a href="index.html" className="f-logo"><img src={require ("../../img/logo2.png")} alt=""/></a>
-                                                <p>© 2019 SaasLand, LLC. All rights reserved. Proudly made in NY</p>
+                                                <a href="index.html" className="f-logo"><img src={require ("../../img/logo.png")} alt=""/></a>
+                                                <p>© </p>
                                                 <div className="f_social_icon">
                                                     {
                                                         FooterData.socialIcon.map(item =>{

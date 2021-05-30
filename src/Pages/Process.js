@@ -2,7 +2,7 @@ import React from 'react';
 import CustomNavbar from '../components/CustomNavbar';
 import Breadcrumb from '../components/Breadcrumb';
 import Featuresitems from '../components/Features/Featuresitems';
-import FooterTwo from '../components/Footer/FooterTwo';
+import FooterTwo from '../components/Footer/FooterSecurity';
 import FooterData from '../components/Footer/FooterData';
 const Process = () => {
     return(
