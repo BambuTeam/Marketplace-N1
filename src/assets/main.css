@@ -1020,7 +1020,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 0px;
   white-space: nowrap;
   font: 400 14px/34px "Poppins", sans-serif;
-  color: #051441;
+  color:#051441;
   -webkit-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
